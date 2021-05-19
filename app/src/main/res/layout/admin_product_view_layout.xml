@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="@dimen/_20sdp"
+    android:layout_marginStart="@dimen/_15sdp"
+    android:layout_marginEnd="@dimen/_15sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    app:cardElevation="@dimen/_15sdp"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/_10sdp">
+
+        <LinearLayout
+            android:id="@+id/llCustomerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="start"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvCustomerNameView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:gravity="start"
+                android:text="@string/customer_name"
+                android:textColor="@color/colorNavy"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvCustomerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:gravity="start"
+                android:text="@string/customer_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/llCustomerName"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:gravity="start"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvMobileView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:gravity="start"
+                android:text="@string/user_mobile_dot"
+                android:textColor="@color/colorNavy"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvMobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:gravity="start"
+                android:text="@string/user_mobile_dot"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/llMobile"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:gravity="start"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvAddressView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:gravity="start"
+                android:text="@string/address_dot"
+                android:textColor="@color/colorNavy"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:gravity="start"
+                android:text="@string/address_dot"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/llAddress"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:gravity="start"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvPriceView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:gravity="start"
+                android:text="@string/total_price_dot"
+                android:textColor="@color/colorNavy"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:gravity="start"
+                android:text="@string/total_price_dot"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

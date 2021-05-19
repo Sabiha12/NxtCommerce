@@ -1,0 +1,122 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/purple_700"
+            android:elevation="@dimen/_2sdp"
+            app:theme="@style/ToolbarTheme"
+            app:titleTextColor="@color/white" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/etNameInputLayout"
+            style="@style/AppTheme.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:hint="@string/user_name"
+            app:errorIconDrawable="@null">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etName"
+                style="@style/AppTheme.TextInputEditTextSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/etMobileNumberInputLayout"
+            style="@style/AppTheme.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etNameInputLayout"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:hint="@string/user_mobile"
+            app:errorIconDrawable="@null">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etMobileNumber"
+                style="@style/AppTheme.TextInputEditTextSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:inputType="phone"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/etAddressInputLayout"
+            style="@style/AppTheme.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etMobileNumberInputLayout"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:hint="@string/user_address"
+            app:errorIconDrawable="@null">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etAddress"
+                style="@style/AppTheme.TextInputEditTextSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tvTotalPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etAddressInputLayout"
+            android:layout_margin="@dimen/_20sdp"
+            android:text="@string/total_price_dot"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTotalPriceAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etAddressInputLayout"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/_20sdp"
+            android:text="0000"
+            android:textColor="@color/colorRed"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnConfirmOrder"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/_50sdp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/btn_confirm"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18ssp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/purple_700"
+            app:cornerRadius="@dimen/_5sdp" />
+
+
+    </RelativeLayout>
+</layout>

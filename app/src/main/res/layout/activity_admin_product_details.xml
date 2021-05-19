@@ -1,0 +1,39 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/purple_700"
+            android:elevation="@dimen/_2sdp"
+            app:theme="@style/ToolbarTheme"
+            app:titleTextColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tvTotalPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center_horizontal"
+            android:text="@string/product_price"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20ssp"
+            android:visibility="gone" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvAdminProductDetails"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvTotalPrice"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:scrollbars="none" />
+
+    </RelativeLayout>
+</layout>

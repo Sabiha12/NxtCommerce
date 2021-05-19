@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_sheet_dialog_bg"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/_10sdp">
+
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:text="@string/bottom_sheet_title_text"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_16sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:text="@string/bottom_sheet_desc_text"
+        android:textColor="@color/gray700"
+        android:textSize="@dimen/_14sdp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rlPositive"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_weight="1"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/btnPositive"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/_8sdp"
+                android:text="@string/bottm_sheet_positive_btn_txt"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp"
+                app:backgroundTint="@color/colorRed"
+                app:cornerRadius="@dimen/_5sdp"
+                app:rippleColor="@color/colorNavy" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNegative"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_weight="1"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/btnNegative"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:padding="@dimen/_8sdp"
+                android:text="@string/bottm_sheet_negative_btn_txt"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sdp"
+                app:backgroundTint="@color/gray200"
+                app:cornerRadius="@dimen/_5sdp"
+                app:rippleColor="@color/colorNavy" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

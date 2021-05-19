@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "850013303983",
+    "project_id": "nxtcommerce-faced",
+    "storage_bucket": "nxtcommerce-faced.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850013303983:android:2ee15efa71a965e8e7905a",
+        "android_client_info": {
+          "package_name": "com.example.nxtcommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "850013303983-2o36r9t8cp0jimkfbp13s7lp4dtm7v3d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nxtcommerce",
+            "certificate_hash": "3b9f912cba5f78e28e093af0c5b96f2341ae9aee"
+          }
+        },
+        {
+          "client_id": "850013303983-9gnaci6vib32u0gturmb5a2rh2pkci8s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9jQGbFd50OHbIr4aC-nTopXAXLfz7_lo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "850013303983-9gnaci6vib32u0gturmb5a2rh2pkci8s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

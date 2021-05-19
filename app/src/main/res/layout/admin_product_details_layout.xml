@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/_10sdp"
+    app:cardElevation="@dimen/_15sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/_10sdp">
+
+        <LinearLayout
+            android:id="@+id/llProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="start"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvProductNameView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:gravity="center"
+                android:text="@string/product_name_dot"
+                android:textColor="@color/colorNavy"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvProductName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:gravity="center"
+                android:text="@string/product_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llProductQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/llProductName"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:gravity="start"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvProductQuantityView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:gravity="center"
+                android:text="@string/product_quantity_dot"
+                android:textColor="@color/colorNavy"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvProductQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:gravity="center"
+                android:text="@string/product_quantity"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llProductPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/llProductQuantity"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:gravity="start"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvProductPriceView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:gravity="center"
+                android:text="@string/product_price_dot"
+                android:textColor="@color/colorNavy"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvProductPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:gravity="center"
+                android:text="@string/product_price"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

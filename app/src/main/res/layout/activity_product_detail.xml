@@ -1,0 +1,159 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/purple_700"
+            android:elevation="@dimen/_2sdp"
+            app:theme="@style/ToolbarTheme"
+            app:titleTextColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/product_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_below="@+id/toolbar"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:scaleType="fitXY"
+
+            />
+
+        <LinearLayout
+            android:id="@+id/llProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_image"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvProductNameView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:gravity="center"
+                android:text="@string/product_name_dot"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvProductName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:gravity="center"
+                android:text="@string/product_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvProductDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/llProductName"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="@string/product_description"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16ssp" />
+
+        <LinearLayout
+            android:id="@+id/llProductPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvProductDesc"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvProductPriceView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:gravity="center"
+                android:text="@string/product_price_dot"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_17ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvProductPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:gravity="center"
+                android:text="@string/product_price"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_17ssp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+            android:id="@+id/btnCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/llProductPrice"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:elevation="@dimen/_6sdp"
+            app:initialNumber="1"
+            app:textSize="@dimen/_16ssp" />
+
+        <LinearLayout
+            android:id="@+id/llButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnAddToCart"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:text="@string/add_to_cart"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp"
+                app:backgroundTint="@color/colorPink"
+                app:cornerRadius="@dimen/_5sdp" />
+
+            <Button
+                android:id="@+id/btnConfirmOrder"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:text="@string/btn_order"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp"
+                app:backgroundTint="@color/colorNavy"
+                app:cornerRadius="@dimen/_5sdp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>

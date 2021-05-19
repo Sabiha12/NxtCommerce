@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">NxtCommerce</string>
+    <string name="admin_panel">Admin Panel</string>
+    <string name="progress_dialog_text">Please wait</string>
+    <string name="bottom_sheet_title_text">No Available Network</string>
+    <string name="bottom_sheet_desc_text">Couldn\'t connect to the internet. Please try again later.</string>
+    <string name="bottm_sheet_positive_btn_txt">Yes</string>
+    <string name="bottm_sheet_negative_btn_txt">No</string>
+    <string name="btn_signup">SignUp</string>
+    <string name="btn_login">Already have an account! Login</string>
+    <string name="user_name">Name</string>
+    <string name="user_email">Email ID</string>
+    <string name="user_mobile">Mobile No.</string>
+    <string name="user_mobile_dot">Mobile No:</string>
+    <string name="user_address">Address</string>
+    <string name="user_password">Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="login">LogIn</string>
+    <string name="adminLogin">Admin Login</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_logout">LogOut</string>
+    <string name="menu_order_history">Order History</string>
+
+    <string name="name_required">Name is required</string>
+    <string name="email_required">Email is required</string>
+    <string name="pass_required">Password is Required</string>
+    <string name="address_required">Address is required</string>
+    <string name="mobile_number_required">Mobile number is Required</string>
+    <string name="pass_length">Password length can not be less than 6!</string>
+    <string name="email_invalid">Email is invalid. Ex: abc@gmail.com</string>
+    <string name="mobile_invalid">Mobile number is invalid. Ex: +880********** or 0*********</string>
+    <string name="info_empty">All fields must be filled out</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_name_dot">Product Name:</string>
+    <string name="product_quantity">Product Quantity</string>
+    <string name="product_quantity_dot">Product Quantity:</string>
+    <string name="product_price">Product Price</string>
+    <string name="product_price_dot">Product Price:</string>
+    <string name="total_price">Total Price</string>
+    <string name="total_price_dot">Total Price:</string>
+    <string name="address_dot">Address:</string>
+    <string name="product_description">Product Description</string>
+    <string name="product_description_dot">Product Description:</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="title_product_details">Product Details</string>
+    <string name="btn_next">Next</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_confirm_order">Confirm Order</string>
+    <string name="headline_confirm_order">Please confirm your order</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_order">Order</string>
+    <string name="cart_msg">You have not added any product yet.</string>
+    <string name="admin_product_msg">You have no order list yet.</string>
+    <string name="history_msg">You have not ordered any product yet.</string>
+    <string name="ordered_at">Ordered at:</string>
+    <string name="admin_login"><u>Admin Login</u></string>
+    <string name="customer_name">Customer Name:</string>
+
+    <string-array name="array_cart_options">
+        <item>Edit</item> <!--0-->
+        <item>Remove</item> <!--1-->
+    </string-array>
+
+</resources>

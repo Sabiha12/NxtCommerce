@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryDark">@color/purple_500</item>
+        <item name="colorAccent">@color/purple_700</item>
+    </style>
+    <style name="AppTheme.TextInputEditTextSize">
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+    <style name="AppTheme.TextInputLayout.OutlinedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="hintTextAppearance">@style/HintTextAppearance</item>
+    </style>
+    <style name="HintTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/purple_700</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+    <!--    Custom color for toolbar back arrow-->
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- Customize color of navigation drawer icon and back arrow -->
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+    <style name="AppTheme.Fullscreen" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowDisablePreview">true</item>
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryDark">@color/purple_500</item>
+        <item name="colorAccent">@color/purple_700</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>
