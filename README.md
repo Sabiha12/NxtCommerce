@@ -17,11 +17,11 @@ Basic E-commerce app including user and admin side. To implement the app I have 
 ***https://firebase.google.com/docs/database/android/start***
 
 ### Project screenshot
+![Home](https://firebasestorage.googleapis.com/v0/b/nxtcommerce-faced.appspot.com/o/screenshot%2Fadmindetail.jpg?alt=media&token=5624cebc-7dba-4e03-ab2f-3170e6e57c71)
 
 **Home page and registration**
 
 </br>
-![Home](https://firebasestorage.googleapis.com/v0/b/nxtcommerce-faced.appspot.com/o/screenshot%2Fadmindetail.jpg?alt=media&token=5624cebc-7dba-4e03-ab2f-3170e6e57c71)
 <img height='500' width ='300' src="https://drive.google.com/uc?export=view&id=<1FERFrW_rwIrD5nRe4Mn2gaRvpuGPuFmq>" />
 <img height='500' width ='300' src="https://drive.google.com/file/d/18x9wyW4kYbPUNoieDyKq8AKUz2Iwk8ce/view?usp=sharing" />
 <img height='500' width ='300' src="https://drive.google.com/file/d/1ikWMtWCfVDXE_KP4j-vZKVQQ-gBLpU0y/view?usp=sharing" />
