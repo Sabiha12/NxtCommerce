@@ -21,6 +21,7 @@ Basic E-commerce app including user and admin side. To implement the app I have 
 **Home page and registration**
 
 </br>
+![image](https://drive.google.com/uc?export=view&id=<1FERFrW_rwIrD5nRe4Mn2gaRvpuGPuFmq>)
 <img height='500' width ='300' src="https://drive.google.com/uc?export=view&id=<1FERFrW_rwIrD5nRe4Mn2gaRvpuGPuFmq>" />
 <img height='500' width ='300' src="https://drive.google.com/file/d/18x9wyW4kYbPUNoieDyKq8AKUz2Iwk8ce/view?usp=sharing" />
 <img height='500' width ='300' src="https://drive.google.com/file/d/1ikWMtWCfVDXE_KP4j-vZKVQQ-gBLpU0y/view?usp=sharing" />
