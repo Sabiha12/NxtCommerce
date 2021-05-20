@@ -179,6 +179,7 @@ public class SignUpActivity extends BaseActivity {
 
     private void gotoLoginActivity() {
         Intent intent = new Intent(SignUpActivity.this, LogInActivity.class);
+        intent.putExtra(Constant.LOGIN_TYPE,Constant.FOR_USER_LOGIN); //2
         startActivity(intent);
     }
 
