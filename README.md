@@ -15,6 +15,6 @@ Basic E-commerce app including user and admin side. To implement the app I have 
 
 ### Backend
 
-        * https://firebase.google.com/docs/database/android/start
+        * [a link] (https://firebase.google.com/docs/database/android/start)
 
 
