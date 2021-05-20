@@ -14,7 +14,6 @@ Basic E-commerce app including user and admin side. To implement the app I have 
         5. Admin View of order list which are ordered by users.
 
 ### Backend
-
-        * [a link] (https://firebase.google.com/docs/database/android/start)
+***https://firebase.google.com/docs/database/android/start***
 
 
